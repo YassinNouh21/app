@@ -1,5 +1,4 @@
 import React from "react";
-import { Categories } from "../data/products";
 import "./category.css";
 import { Button } from "@material-ui/core";
 import { Link } from "react-router-dom";
@@ -11,10 +10,10 @@ function Category(props) {
     }
     return (
         <div id='make-3D-space'>
-            <div id='product-card' onMouseEnter={handleMouseEnter}>
+            <div id='product-card'>
                 <div id='product-front'>
                     <div className='shadow'></div>
-                    <img src={props.img} alt='' />
+                    <img src={props.name} alt='' />
                     <div className='image_overlay'></div>
                     <div id='explore'>Explore</div>
                     <div className='stats'>

@@ -11,13 +11,11 @@ class Home extends Component {
     return (
       <div>
         <div>
-          <Navbar />
           <div>
-
             <SlideShow />
           </div>
-          <GridViewProduct/>
-          <GridViewCategories />
+          {/* { <GridViewProduct/> */}
+          {<GridViewCategories /> }
           <Footer />
         </div>
       </div>

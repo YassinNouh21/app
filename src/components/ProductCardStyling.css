@@ -17,13 +17,13 @@ a
 }
 .product-card {
     border-radius: 15px;
-    width: 380px;
     position: relative;
     /* box-shadow: 0 2px 7px #dfdfdf; */
     margin: 50px auto;
     background: #fafafa;
     transition: all ease 200ms;
     overflow: hidden;
+    max-width: 1000px;
     cursor: pointer;
 
 }
